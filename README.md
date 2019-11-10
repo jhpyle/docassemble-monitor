@@ -1,4 +1,4 @@
-# docassemble-mon
+# docassemble-monitor
 
 This [Docker] image provides an API for monitoring a [**docassemble**]
 implementation on a [Kubernetes] cluster deployed with the
