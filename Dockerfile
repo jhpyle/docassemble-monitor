@@ -7,7 +7,7 @@ python3 \
 nginx \
 python3-dev \
 python3-pip
-RUN pip3 install uwsgi==2.0.18
+RUN pip3 install uwsgi==2.0.19.1
 COPY ./ ./app
 WORKDIR ./app
 RUN pip3 install -r requirements.txt
