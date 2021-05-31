@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:testing
 RUN DEBIAN_FRONTEND=noninteractive \
 apt-get -y update
 RUN DEBIAN_FRONTEND=noninteractive \
